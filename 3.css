@@ -1,0 +1,54 @@
+img{
+    width: 80px;
+    height: 80px;
+}
+
+body{
+    padding: 20px;
+}
+.main{
+    margin: 0 auto;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    min-width: 600px;
+    padding: 20px;
+    overflow:auto;
+}
+
+.main .left{
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #999999;
+    width: 160px;
+}
+
+.main .left img{
+    display: inline-block;
+    float: left;
+}
+
+.main .right{
+    float: right;
+    background-color: white;
+    border: 1px solid #999999;
+    width: 120px;
+}
+
+.main .right img{
+    margin: 20px;
+    display: block;
+    border: 1px solid #999;
+}
+
+.main .middle{
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
+    background-color: white;
+    border: 1px solid #999999;
+}
+
+p{
+    text-indent: 2em;
+}
